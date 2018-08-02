@@ -1,0 +1,12 @@
+dryRun---> true or false
+strict--->true or false
+feature---->to specify the path of feature file
+glue---->to specify the path of stepdefinintion file
+monochrome--->to display the output in a proper redable format-->true or false
+tags--->to group the scenarios using @sanity,@regression,@critical
+
+
+format-->pretty format(to show the feature file in console)
+      -->"json:json_folder/result.json"(to generate the output in a json file)
+      -->"junit:junit_xml/result.xml"(to generate the output in a xml file)
+      -->"html:html_folder/result.html"(to generate the output in a html file)
